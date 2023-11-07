@@ -8,11 +8,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
   imports: [
     TypeOrmModule.forRoot({
       "type":"mysql",
-      "host":"localhost",
+      "host":"bdu5vcw5qynyytqgzwln-mysql.services.clever-cloud.com",
       "port":3306,
-      "username":"root",
-      "password":"nico123",
-      "database":"lista-prueba",
+      "username":"uak6k0khry0lsmtu",
+      "password":"vJklR0iMytDvLcoVNEw9",
+      "database":"bdu5vcw5qynyytqgzwln",
       "entities":["dist/**/**.entity{.ts,.js}"],
       "synchronize":true
     }),
